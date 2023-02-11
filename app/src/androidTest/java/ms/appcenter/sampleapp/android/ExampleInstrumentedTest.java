@@ -66,5 +66,16 @@ public class ExampleInstrumentedTest {
 
         assertEquals("ms.appcenter.sampleapp.android", appContext.getPackageName());
     }
+    @Test
+    public void anotherTest() {
+        // Context of the app under test.
+        assertEquals(true, true);
+    }
 
+    @Test
+    public void anotherTest2() {
+        int number =123;
+        // Context of the app under test.
+        assertEquals(123, number);
+    }
 }
