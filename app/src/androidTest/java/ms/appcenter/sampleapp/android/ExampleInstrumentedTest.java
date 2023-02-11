@@ -37,4 +37,34 @@ public class ExampleInstrumentedTest {
 
         assertEquals("ms.appcenter.sampleapp.android", appContext.getPackageName());
     }
+
+    @Test
+    public void testOne() {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+
+        assertEquals("ms.appcenter.sampleapp.android", appContext.getPackageName());
+    }
+    @Test
+    public void testTwo() {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+
+        assertEquals("ms.appcenter.sampleapp.android", appContext.getPackageName());
+    }
+    @Test
+    public void testThree() {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+
+        assertEquals("ms.appcenter.sampleapp.android", appContext.getPackageName());
+    }
+    @Test
+    public void testFour() {
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+
+        assertEquals("ms.appcenter.sampleapp.android", appContext.getPackageName());
+    }
+
 }
